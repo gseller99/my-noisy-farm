@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+header {
+	color:orange;
+	text-align: center;
+	padding: 40px;
+	font-size: 5em;
+	font-family:bolder;
+}
+
+.bg {
+    /* The image used */
+    background-image:url(farm-full-screen-hd.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.animal-box {
+	/*display: flex;*/
+	position: relative;
+padding:5px 0px 60px 5px;
+}
+.cow {
+	/*display: flex 1;*/
+	padding:250px 0px 0px 50px;
+	color:orange;
+	position:relative;
+	height:200px;
+}
+	
+.pig {
+	/*display: flex 2;*/
+	padding:250px 0px 0px 450px;
+	color:orange;
+	position:relative;
+	height:200px;
+}
+
+.rooster {
+	/*display: flex 2;*/
+	padding:5px 20px 10px 5px;
+	align-content: bottom;
+	color:orange;
+	float: right;
+}
+.horse {
+	/*display: flex 1;*/
+	padding:5px 20px 10px 5px;
+	align-content: bottom;
+	color:orange;
+}
