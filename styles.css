@@ -5,9 +5,10 @@ body, html {
 header {
 	color:orange;
 	text-align: center;
-	padding: 40px;
+	padding: 0px;
 	font-size: 5em;
 	font-family:bolder;
+	background-color:red;
 }
 
 .bg {
@@ -29,7 +30,7 @@ padding:5px 0px 60px 5px;
 }
 .cow {
 	/*display: flex 1;*/
-	padding:250px 0px 0px 50px;
+	padding:400px 0px 0px 50px;
 	color:orange;
 	position:relative;
 	height:200px;
@@ -37,7 +38,7 @@ padding:5px 0px 60px 5px;
 	
 .pig {
 	/*display: flex 2;*/
-	padding:250px 0px 0px 450px;
+	padding:400px 0px 0px 450px;
 	color:orange;
 	position:relative;
 	height:200px;
