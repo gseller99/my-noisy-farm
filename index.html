@@ -13,10 +13,16 @@
         <section class="animal-box">
             <img class="cow" onclick="playcow()" data-key="cow" src="cow-trans.png">
             <img class="pig" onclick="playpig()" data-key="pig" src="pig-trans.png">
+            <img class="rooster" onclick="playrooster()" data-key="rooster" src="rooster-trans.png">
+            <img class="horse" onclick="playhorse()" data-key="horse" src="horse-trans.png">
+
             <!-- <div class="rooster">rooster</div>
             <div class="horse">horse</div> -->
             <audio data-key="cow" src="sounds-farm/cow.mp3"></audio>
             <audio data-key="pig" src="sounds-farm/pig.mp3"></audio>
+            <audio data-key="rooster" src="sounds-farm/rooster.mp3"></audio>
+            <audio data-key="horse" src="sounds-farm/Horse-noise.wav"></audio>
+
         </section>
     </main>
     <script type="text/javascript">
@@ -31,6 +37,18 @@
         audio.currentTime = 0;
         audio.play();
     }
+    function playrooster(e) {
+        var audio = document.querySelector('audio[data-key="rooster"]');
+        audio.currentTime = 0;
+        audio.play();
+    }
+
+    function playhorse(e) {
+        var audio = document.querySelector('audio[data-key="horse"]');
+        audio.currentTime = 0;
+        audio.play();
+    }
+
     </script>
 </body>
 
